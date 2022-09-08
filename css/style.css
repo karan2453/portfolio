@@ -1,0 +1,334 @@
+html {
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+#mynavigation {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    background-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-default .navbar-brand {
+    color: #000000;
+    font-size: 1.3rem;
+    padding: 1rem 0 1.2rem 0;
+}
+
+.navbar-default .navbar-brand span {
+    color: #d5c455;
+    font-size: 2.5rem;
+}
+
+.navbar {
+    border: 0;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav li {
+    color: #000000;
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #000000;
+    background-color: transparent;
+}
+
+/* Hire section starts here */
+
+.hire {
+    width: 80%;
+    height: 20vh;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.hire .row .col-lg-12 h1 {
+    font-size: 2.5rem;
+    color: #d5c455;
+}
+
+.hire .row .col-lg-12 h2 {
+    font-size: 1.5rem;
+}
+
+.first-button {
+    padding: 1rem 1.3rem;
+    background-color: #d5c455;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-button:hover {
+    color: #fff;
+}
+
+.second-button {
+    padding: 1rem 1.2rem;
+    background-color: #fff;
+    color: #000000;
+    border: 0;
+    border-radius: 0;
+    font-weight: 400;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* about section strats here */
+
+.about {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.about-row1 {
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+.about-row1 h1 {
+    font-size: 2rem;
+    color: #d5c455;
+}
+
+.about-row2 h1 {
+    font-size: 2rem;
+}
+
+.about-row2 .para {
+    width: 90%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+    font-weight: 400;
+    color: #333;
+}
+
+.about-row2 p {
+    font-size: 1.1rem;
+}
+
+.Details {
+    margin-top: 2rem;
+}
+
+.Details h3 {
+    font-size: 2rem;
+}
+
+.Details span {
+    display: inline-block;
+    width: 110px;
+    height: 50px;
+    background-color: #d5c455;
+    text-align: center;
+    color: #fff;
+    margin: 20px 20px 0px 0px;
+    padding-top: 14.5px;
+}
+
+/* my-project section strats here */
+
+.my-project {
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0rem;
+}
+
+.project-row1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #d5c455;
+    padding: 3rem 0;
+}
+
+
+.project-row2 {
+    padding: 0 0 6rem 0;
+}
+
+.project-row2 img {
+    width: 100%;
+}
+
+.project-row2 .right {
+    font-size: 1rem;
+}
+
+
+.project-row2 .right i {
+    color: #d5c455;
+    margin-right: 1rem;
+}
+
+.right button {
+    padding: 0.8rem 1.2rem;
+    background-color: #d5c455;
+    color: #fff;
+    border: 0;
+    margin-top: 1rem;
+}
+
+.right button a {
+    color: #fff;
+}
+
+.right button a:hover {
+    text-decoration: none;
+}
+
+/* form section starts here */
+
+.form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-row1 {
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+
+.form-row1 h1 {
+    font-size: 2rem;
+    color: #d5c455;
+}
+
+.form-row2 input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.form-row2 textarea {
+    width: 100%;
+    padding: 0.8rem;
+}
+
+.submit-button {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.submit-button button {
+    padding: 1rem;
+    background-color: #d5c455;
+    color: #fff;
+    border-radius: 0;
+}
+
+.submit-button button:hover {
+    color: #fff;
+}
+
+
+/* footer starts here */
+footer {
+    width: 100%;
+    background-color: #d5c455;
+}
+
+footer .row {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+@media (max-width:1200px) {
+
+    .middle {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .middle .left {
+        order: 2;
+    }
+
+    .middle .right {
+        order: 1;
+    }
+
+    .Details {
+        margin: 2rem 0;
+    }
+
+    .about-row2 h1 {
+        text-align: center;
+    }
+
+    .about-row2 .para {
+        width: 100%;
+    }
+
+    .my-project {
+        padding: 1rem 0rem;
+    }
+
+    .project-row1 {
+        padding: 1rem 0;
+    }
+
+    .right {
+        margin: 2rem 0;
+    }
+
+    .project-row2 {
+        padding: 0 0 2rem 0;
+    }
+
+    .middle {
+        padding: 4rem 0rem;
+    }
+
+    .form-row1 {
+        padding: 0;
+        text-align: center;
+    }
+
+}
